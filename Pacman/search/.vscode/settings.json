@@ -1,0 +1,19 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#2E2F0F",
+        "titleBar.activeBackground": "#404214",
+        "titleBar.activeForeground": "#FAFAF1"
+    },
+    "python.testing.pytestArgs": [
+        "BFS EightPuzzle"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test_*.py"
+    ]
+}
