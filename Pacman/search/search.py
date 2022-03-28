@@ -210,12 +210,12 @@ def manhattenEightPuzzleHeuristic (state, problem):
             if cells[x][y] != correct[x][y]:
                 tx, ty = findCoords(cells[x][y])
                 c += abs(x - tx) + abs(y - ty)
-    return c     
+    return c
+
+
 
 # Abbreviations
 bfs = breadthFirstSearch
 dfs = depthFirstSearch
 astar = aStarSearch
 ucs = uniformCostSearch
-
-
